@@ -26,8 +26,6 @@ header{
 .header__figure img{
     margin-left: 20px; 
     margin-right: 10px;
-    /* float: left;
-    margin-right: 20px; */
 }
 
 
@@ -37,6 +35,8 @@ header{
     padding: 2rem;
     background-color: #BBBBBB;
 }
+
+/* SECTION */
 
 .section__pokemon-name{
     display: flex;
@@ -64,9 +64,6 @@ header{
 
 .section__pokemon{
     border-radius: 1rem;
-    /* background-color: #E9F3F9;
-    box-shadow: 0 0 3rem  -1rem rgba(0, 0, 0, .25);
-    padding-block: 1rem; */
     text-transform: uppercase; 
 }
 
@@ -78,14 +75,11 @@ header{
     width: 100%;
     max-width: 28rem;
     filter: brightness(0);
-    /* padding: 2rem; */
 }
 
 .section__img{
-    /* padding-inline: 1rem; */
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .section__information{
