@@ -6,8 +6,6 @@
     margin: 0;
 }
 
-/* HEADER */
-
 header{
     display: flex;
     align-items: center;
@@ -28,15 +26,10 @@ header{
     margin-right: 10px;
 }
 
-
-/* MAIN */
-
 .main{
     padding: 2rem;
     background-color: #BBBBBB;
 }
-
-/* SECTION */
 
 .section__pokemon-name{
     display: flex;
@@ -103,14 +96,13 @@ header{
     font-family: 'Asap', sans-serif;
 }
 
-/* FOOTER */
-
 .footer{
     padding: 2rem;
     display: inline-flex;
     justify-content: space-evenly;
     background-color: #FDFEFE;
     border-radius: 0 0 1.2rem 1.2rem;
+    align-items: center;
 }
 
 .footer__text{
@@ -139,3 +131,21 @@ header{
     background-color: #BBBBBB;
 }
 
+@media screen and (max-width: 629px) {
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -8rem;
+    }
+
+    .footer_figure{
+        height: 50%;
+    }
+
+    .section__pokemon {
+        width: 280px;
+        margin: 0px 0px;
+        transform: translateY(142px);
+    }
+}
